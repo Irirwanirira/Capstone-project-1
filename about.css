@@ -312,6 +312,10 @@ a {
     width: 30%;
   }
 
+  #ineza-logo-design {
+    width: 50%;
+  }
+
   .invitation {
     background: url(./image/about-dektop.png) no-repeat;
     padding: 4rem;
