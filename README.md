@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://irirwanirira.github.io/My-portofolio/)
+[Live Demo Link](https://irirwanirira.github.io/Capstone-project-1/)
 
 ## Getting started
 
