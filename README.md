@@ -12,8 +12,7 @@
 - javaScript
 
 ## Live Demo 
-
-[Live Demo Link](https://irirwanirira.github.io/Capstone-project-1/)
+[LIVE LINK](https://irirwanirira.github.io/Capstone-project-1/)
 
 ## Getting started
 
@@ -46,7 +45,7 @@ Install all the dependencies by running the command npm -i
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Irirwanirira/My-portofolio/issues).
+Feel free to check the [issues](https://github.com/Irirwanirira/Capstone-project-1/issues).
 
 ## Show your support
 
