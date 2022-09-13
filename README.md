@@ -1,42 +1,39 @@
-# Country Culture celebration 
 
-# COUNTRY CULTURE CELEBATION 2022
+# COUNTRY CULTURE CELEBRATION 2022
 
-> Country culture celebration presented by Ineza
+> Country culture celebration sponsored by Ineza .
 
 
 ## Built With
 
 - HTML
 - CSS
-- javaScript
+-javaScript
 
 ## Live Demo 
 
-[LIVE LINK](https://irirwanirira.github.io/Capstone-project-1/)
-
-
-
+[Live Demo Link](https://irirwanirira.github.io/Capstone-project-1/)
 
 ## Getting started
 
-**To use this repositpry you will need to Clone this repository to your machine. A .gitignore file is already created to ignore any file that is irrelevant, especially your node.js file. A linter is already set up to help you check for errors in your codes, images and iconsused are already there**
+**To use this repositpry you will need to Clone this repository to your machine. A .gitignore file is already created to ignore any file that is irrelevant, especially your node.js file. A linter is already set up to help you check for errors in your codes, images used are already there**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-There are no prerequisites for this project.
-
 ### Setup
-
-Clone the repository and open the index.html file.
 
 ### Install
 
-Install all the dependencies by running the command npm -i
+### Usage
 
-## Live Demo 
+### Run tests
+
+### Deployment
+
+## Authors
+
 
 
 👤 **Author1**
@@ -46,10 +43,9 @@ Install all the dependencies by running the command npm -i
 - LinkedIn: [Joseph IRIRWANIRIRA](https://linkedin.com/in/joseph-irirwanirira-74666623a/)
 
 
-
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/Irirwanirira/Capstone-project-1/issues).
+Feel free to check the [issues pages](https://github.com/Irirwanirira/Capstone-project-1/issues).
 
 ## Show your support
 
