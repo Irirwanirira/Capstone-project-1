@@ -124,6 +124,7 @@ a {
 .ccc-logo {
   font-weight: 400;
   color: #272a31;
+  margin-top: 7rem;
 }
 
 #hr-1 {
@@ -239,6 +240,10 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+  
   .hamburger-menu {
     display: none;
   }
@@ -247,15 +252,18 @@ a {
     font-family: 'lato', sans-serif;
     height: 100vh;
     padding: 0 10%;
+    margin-top: 0;
   }
 
   .with-content {
     display: flex;
     justify-content: end;
     background-color: #272a31;
-    width: 100;
-    padding: 0 20px;
-    margin-left: 20px;
+    padding: 0 7rem;
+  }
+  
+  .with-content ul {
+    margin: 5px;
   }
 
   .with-content li {
