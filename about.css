@@ -192,7 +192,7 @@ a {
 
 .brand {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   color: #d3d3d3;
   font-size: 20px;
@@ -213,7 +213,6 @@ a {
 #ineza {
   width: 30%;
   border-radius: 20%;
-
 }
 
 .image-right {
