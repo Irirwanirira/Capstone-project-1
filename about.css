@@ -177,8 +177,6 @@ a {
   font-family: 'lato', sans-serif;
   background-color: #272a31;
   text-align: center;
-
-  /* margin: px 0 ; */
 }
 
 #P-title {
@@ -243,7 +241,7 @@ a {
   body {
     margin: 0;
   }
-  
+
   .hamburger-menu {
     display: none;
   }
@@ -261,7 +259,7 @@ a {
     background-color: #272a31;
     padding: 0 7rem;
   }
-  
+
   .with-content ul {
     margin: 5px;
   }
