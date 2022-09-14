@@ -8,7 +8,7 @@
 
 - HTML
 - CSS
--javaScript
+- javaScript
 
 ## Live Demo 
 
@@ -56,9 +56,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+[Cindy Shin](https://www.behance.net/adagio07)
+[Microverse](https://www.microverse.org/about-us)
 
 ## 📝 License
 
