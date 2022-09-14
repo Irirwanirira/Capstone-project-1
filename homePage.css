@@ -1,6 +1,4 @@
 @import url("https://fonts.cdnfonts.com/css/Lato");
-@import url("https://fonts.cdnfonts.com/css/cocogoose");
-
 body {
   align-items: center;
   padding: 0;
@@ -223,8 +221,6 @@ a {
 .number-one img {
   width: 6rem;
   height: 7rem;
-
-  /* padding: ; */
 }
 
 .Partners {
@@ -246,20 +242,21 @@ a {
 
 .brand {
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   align-items: center;
   color: #d3d3d3;
   font-size: 20px;
+  gap: 20px;
   padding: 20px;
 }
 
 #art {
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
 }
 
 #dreamy {
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
 }
 
@@ -268,10 +265,8 @@ a {
   border-radius: 20%;
 }
 
-.CCC {
+.image-right {
   font-family: 'lato', sans-serif;
-
-  /* background-color: #d3d3d3; */
   text-align: center;
   padding: 10px;
   display: flex;
@@ -280,16 +275,16 @@ a {
   gap: 10px;
 }
 
-.ccc-h3 {
+.right-h3 {
   font-weight: 800;
   font-size: 20px;
 }
 
-.ccc-1 {
+.right-1 {
   color: grey;
 }
 
-.ccc-p2 {
+.right-p2 {
   display: none;
 }
 
@@ -520,26 +515,6 @@ a {
     position: absolute;
   }
 
-  .color-icon {
-    display: flex;
-    justify-content: start;
-    gap: 40px;
-  }
-
-  .Font-family-details {
-    display: flex;
-    justify-content: space-between;
-    text-align: start;
-  }
-
-  .cocogoose {
-    text-align: start;
-  }
-
-  .lato {
-    text-align: start;
-  }
-
   .brand {
     display: flex;
     justify-content: center;
@@ -551,20 +526,17 @@ a {
   }
 
   #art {
-    width: 10%;
-    height: 7rem;
+    width: 20%;
     border-radius: 50%;
   }
 
   #dreamy {
-    width: 10%;
-    height: 7rem;
+    width: 20%;
     border-radius: 50%;
   }
 
   #ineza {
-    width: 15%;
-    height: 5rem;
+    width: 30%;
     border-radius: 20%;
   }
 }
