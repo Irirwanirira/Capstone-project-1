@@ -392,9 +392,9 @@ a {
 
   .logo {
     display: block;
-    font-size: 40px;
-    font-weight: 600;
-    padding-left: 2rem;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 5rem ;
   }
 
   #ineza-logo {

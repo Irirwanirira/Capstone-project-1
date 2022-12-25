@@ -19,7 +19,7 @@ removeList.forEach((list) => {
 
 const speaker = [
     { 
-      img: 'image/messi.jpeg',
+      img: 'image/s1.jpeg',
       names: 'Joseph',
       experience: 'CEO at Ineza store',
       job: 'Benkles studies commons-basssed peer production ,and published.'
@@ -27,7 +27,7 @@ const speaker = [
     },
 
     { 
-      img: 'image/messi.jpeg',
+      img: 'image/s2.jpeg',
       names: 'Ricky',
       experience: 'Student At Mt K U',
       job: 'Benkles studies commons-basssed peer production ,and published.'
@@ -35,7 +35,7 @@ const speaker = [
     },
 
     {
-      img: './image/messi.jpeg',
+      img: './image/s3.jpeg',
       names: 'Donny',
       experience: 'Expert in Ecology',
       job: 'Benkles studies commons-basssed peer production ,and published.',
@@ -43,7 +43,7 @@ const speaker = [
     },
 
     { 
-      img: './image/messi.jpeg',
+      img: './image/s4.jpeg',
       names: 'Wess',
       experience: 'Founder Art love',
       job: 'Benkles studies commons-basssed peer production ,and published.',
@@ -51,7 +51,7 @@ const speaker = [
     },
 
     { 
-        img: './image/messi.jpeg',
+        img: './image/s5.jpeg',
         names: 'Wess',
         experience: 'K-group Admin',
         job: 'Benkles studies commons-basssed peer production ,and published.',
@@ -59,9 +59,9 @@ const speaker = [
     },
 
     { 
-        img: './image/messi.jpeg',
-        names: 'Wess',
-        experience: 'Common culture Express',
+        img: './image/s6.jpg',
+        names: 'Mushikiwabo Luise',
+        experience:  'Organisation internationale de la Francophonie.',
         job: 'Benkles studies commons-basssed peer production ,and published.',
         className: 'hide',
     },
