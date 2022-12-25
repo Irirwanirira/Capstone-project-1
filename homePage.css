@@ -262,8 +262,8 @@ a {
 }
 
 #ineza {
-  width: 30%;
-  border-radius: 20%;
+  width: 20%;
+  border-radius: 50%;
 }
 
 .image-right {
@@ -394,7 +394,7 @@ a {
     display: block;
     width: 20%;
     border-radius: 50%;
-    margin-left: 5rem ;
+    margin-left: 5rem;
   }
 
   #ineza-logo {
@@ -537,7 +537,7 @@ a {
   }
 
   #ineza {
-    width: 30%;
-    border-radius: 20%;
+    width: 20%;
+    border-radius: 50%;
   }
 }
