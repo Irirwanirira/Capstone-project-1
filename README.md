@@ -13,7 +13,7 @@
 ## Live Demo 
 
 
-[Live Demo](https://irirwanirira.github.io/Capstone-project-1/)
+[Live Demo](https://eclectic-gumption-fb13ce.netlify.app)
 
 
 
