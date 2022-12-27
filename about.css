@@ -396,21 +396,3 @@ a {
     border-radius: 50%;
   }
 }
-
-@import url("https://fonts.cdnfonts.com/css/Lato");
-
-body {
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.HOME-PAGE {
-  background: url(./image/mobile-home.png) no-repeat;
-  background-size: cover;
-  padding: 10px;
-}
