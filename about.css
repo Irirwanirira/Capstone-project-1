@@ -148,16 +148,32 @@ a {
 }
 
 #image-1 {
+  background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/fa.jpg);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(20px);
+  background-size: cover;
+  color: #d3d3d3;
+  height: 12rem;
+  width: 25%;
+}
+
+#image-1:hover {
+  background-image: url(./image/fa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#image-2 {
   background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/expo-backg-display.jpeg);
   mix-blend-mode: multiply;
   backdrop-filter: blur(20px);
   background-size: cover;
   color: #d3d3d3;
   height: 12rem;
-  text-align: ce;
+  width: 25%;
 }
 
-#image-1:hover {
+#image-2:hover {
   background-image: url(./image/expo-backg-display.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,7 +184,17 @@ a {
   font-size: 20px;
 }
 
+#image-2 p {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
 #image-1 span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#image-2 span {
   font-size: 30px;
   font-weight: 700;
 }
@@ -190,15 +216,6 @@ a {
   background-color: #ec5242;
 }
 
-.brand {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #d3d3d3;
-  font-size: 20px;
-  gap: 20px;
-  padding: 20px;
-}
 
 #art {
   width: 20%;
@@ -248,71 +265,75 @@ a {
     display: none;
   }
 
-  .HOME-PAGE {
-    font-family: 'lato', sans-serif;
-    height: 100vh;
-    padding: 0 10%;
-    margin-top: 0;
-  }
 
   .with-content {
-    display: flex;
-    justify-content: end;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align:right; 
     background-color: #272a31;
-    padding: 0 7rem;
   }
 
   .with-content ul {
+    width: 83.5%;
     margin: 5px;
   }
 
   .with-content li {
     list-style: none;
     display: inline;
-    padding-left: 1rem;
+    padding-left: 10px;
   }
 
   .with-content a {
     color: #d3d3d3;
   }
 
-  .navbar {
+  .nav-bar {
     width: 100%;
     background-color: #f8f1f1;
     display: flex;
+    text-align: center;
     justify-content: space-between;
+    padding: 0 20px;
   }
 
-  .navigation {
-    padding: 0;
+  .hamburger-menu {
+    display: none;
+  }
+
+  .nav-item {
     display: flex;
-    flex-direction: row;
-    text-align: end;
-    gap: 20px;
-    justify-content: flex-start;
-    align-items: stretch;
-    left: 0;
-    margin: 0 0;
-    font-size: 25px;
-    font-weight: 500;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-between;
     font-family: 'lato', sans-serif;
     list-style: none;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height: 0;
-    width: 45%;
-    position: unset;
+    padding-right: 12rem;
   }
 
   .nav-link {
+    font-weight: 500;
     font-size: 15px;
+    color: #272a31;
+    line-height: 40px
+  }
+
+  .about {
+    color: #ec5242;
+  }
+
+  .cc {
+    border: 4px #ec5242 solid;
+    padding: 2px;
+    color: #ec5242;
   }
 
   .logo {
     display: block;
     width: 20%;
     border-radius: 50%;
+    margin-left: 1rem;
   }
 
   #ineza-logo {
@@ -323,41 +344,72 @@ a {
     width: 50%;
   }
 
-  .invitation {
-    background: url(./image/about-dektop.png) no-repeat;
-    padding: 4rem;
+  .HOME-PAGE {
+    margin: 0;
+    padding: 0;
   }
+
+
+  .invitation {
+    font-family: 'lato', sans-serif;
+    height: 90vh;
+    padding: 2rem 10rem;
+    margin: 0;
+    background-size: contain;
+
+  }
+
 
   .Topic-head {
     font-size: 40px;
     font-weight: 700;
-    padding-bottom: 3rem;
+    text-align: center;
   }
 
   .slogan {
+    text-align: center;
     width: 70%;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+
+  .slogan-paragraph {
     margin-left: 8rem;
     margin-bottom: 3rem;
   }
 
   .contact {
+    margin-top: 5rem;
     font-weight: 300;
+    text-align: center;
+    line-height: 5px;
   }
 
   .contact a {
     font-weight: 600;
+    text-decoration: none;
+  }
+
+  .ccc-logo {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(202, 200, 200);
   }
 
   .culture-logo {
     border: 2px solid #d3d3d3;
     width: 30%;
-    margin-left: 35%;
+    margin: 2rem 0 5rem 30rem;
   }
 
   .culture-logo img {
     border-radius: 60% 0;
     width: 30%;
     padding: 20px;
+  }
+
+  .past-celebration {
+    text-align: center;
   }
 
   .both-images {
@@ -371,28 +423,9 @@ a {
     margin: 0 30px;
   }
 
-  .brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #d3d3d3;
-    font-size: 20px;
-    padding: 20px;
-  }
-
-  #art {
-    width: 20%;
-    border-radius: 50%;
-  }
-
-  #dreamy {
-    width: 20%;
-    border-radius: 50%;
-  }
-
   #ineza {
-    width: 20%;
+    margin: 1rem 0;
+    width: 5%;
     border-radius: 50%;
   }
 }
