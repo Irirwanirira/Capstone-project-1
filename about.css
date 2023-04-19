@@ -13,7 +13,6 @@ a {
   background: url(./image/mobile-home.png) no-repeat;
   background-size: cover;
   padding: 10px;
-  margin-top: 2rem;
 }
 
 .with-content {
@@ -24,7 +23,7 @@ a {
   display: none;
 }
 
-.navigation {
+.nav-item {
   margin: 0;
   left: 100%;
   line-height: 3rem;
@@ -41,7 +40,7 @@ a {
   transition: 0.2s;
 }
 
-.navigation.active {
+.nav-item.active {
   left: 0;
 }
 
@@ -122,6 +121,7 @@ a {
 }
 
 .ccc-logo {
+  text-align: center;
   font-weight: 400;
   color: #272a31;
   margin-top: 7rem;
@@ -142,10 +142,17 @@ a {
   padding: 20px;
 }
 
+.past-celebration  {
+  text-align: center;
+  margin-bottom: 2rem
+}
+
 .past-celebration h3 {
   font-size: 30px;
   color: #272a31;
 }
+
+
 
 #image-1 {
   background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/fa.jpg);
@@ -154,7 +161,7 @@ a {
   background-size: cover;
   color: #d3d3d3;
   height: 12rem;
-  width: 25%;
+  width: 100%;
 }
 
 #image-1:hover {
@@ -170,7 +177,7 @@ a {
   background-size: cover;
   color: #d3d3d3;
   height: 12rem;
-  width: 25%;
+  width: 100%;
 }
 
 #image-2:hover {
@@ -303,13 +310,25 @@ a {
   }
 
   .nav-item {
+    padding: 0;
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    text-align: end;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: stretch;
+    left: 0;
+    margin: 0 0;
+    font-size: 25px;
+    font-weight: 500;
     font-family: 'lato', sans-serif;
     list-style: none;
-    padding-right: 12rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 45%;
+    position: unset;
   }
 
   .nav-link {
@@ -417,6 +436,58 @@ a {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+  }
+
+  #image-1 {
+    background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/fa.jpg);
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    color: #d3d3d3;
+    height: 12rem;
+    width: 25%;
+  }
+  
+  #image-1:hover {
+    background-image: url(./image/fa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #image-2 {
+    background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/expo-backg-display.jpeg);
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    color: #d3d3d3;
+    height: 12rem;
+    width: 25%;
+  }
+  
+  #image-2:hover {
+    background-image: url(./image/expo-backg-display.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #image-1 p {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  #image-2 p {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  #image-1 span {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  #image-2 span {
+    font-size: 30px;
+    font-weight: 700;
   }
 
   #image-1 p {

@@ -24,7 +24,8 @@ a {
   display: none;
 }
 
-.navigation {
+
+.nav-item {
   margin: 0;
   left: 100%;
   line-height: 3rem;
@@ -45,8 +46,8 @@ a {
   transition: 0.2s;
 }
 
-.navigation.active {
-  left: 0;
+.nav-item.active {
+  left: -3%;
 }
 
 .nav-link {
@@ -349,13 +350,26 @@ a {
   }
 
   .nav-item {
+    padding: 0;
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    text-align: end;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: stretch;
+    left: 0;
+    margin: 0 0;
+    font-size: 25px;
+    font-weight: 500;
     font-family: 'lato', sans-serif;
     list-style: none;
-    padding-right: 12rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 45%;
+    position: unset;
+
   }
 
   .nav-link {
