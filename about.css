@@ -142,17 +142,15 @@ a {
   padding: 20px;
 }
 
-.past-celebration  {
+.past-celebration {
   text-align: center;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
 }
 
 .past-celebration h3 {
   font-size: 30px;
   color: #272a31;
 }
-
-
 
 #image-1 {
   background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/fa.jpg);
@@ -223,19 +221,18 @@ a {
   background-color: #ec5242;
 }
 
-
 #art {
-  width: 20%;
+  width: 10%;
   border-radius: 50%;
 }
 
 #dreamy {
-  width: 20%;
+  width: 10%;
   border-radius: 50%;
 }
 
-#ineza {
-  width: 20%;
+#ineza-1 {
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -272,12 +269,11 @@ a {
     display: none;
   }
 
-
   .with-content {
     width: 100%;
     height: auto;
     display: inline-block;
-    text-align:right; 
+    text-align: right;
     background-color: #272a31;
   }
 
@@ -297,7 +293,6 @@ a {
   }
 
   .nav-bar {
-    width: 100%;
     background-color: #f8f1f1;
     display: flex;
     text-align: center;
@@ -335,7 +330,7 @@ a {
     font-weight: 500;
     font-size: 15px;
     color: #272a31;
-    line-height: 40px
+    line-height: 40px;
   }
 
   .about {
@@ -368,16 +363,13 @@ a {
     padding: 0;
   }
 
-
   .invitation {
     font-family: 'lato', sans-serif;
     height: 90vh;
     padding: 2rem 10rem;
     margin: 0;
     background-size: contain;
-
   }
-
 
   .Topic-head {
     font-size: 40px;
@@ -447,13 +439,13 @@ a {
     height: 12rem;
     width: 25%;
   }
-  
+
   #image-1:hover {
     background-image: url(./image/fa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   #image-2 {
     background-image: linear-gradient(180deg, rgba(182, 175, 175, 0), rgba(138, 52, 52, 0.9) 0), url(./image/expo-backg-display.jpeg);
     mix-blend-mode: multiply;
@@ -463,28 +455,28 @@ a {
     height: 12rem;
     width: 25%;
   }
-  
+
   #image-2:hover {
     background-image: url(./image/expo-backg-display.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   #image-1 p {
     padding-top: 40px;
     font-size: 20px;
   }
-  
+
   #image-2 p {
     padding-top: 40px;
     font-size: 20px;
   }
-  
+
   #image-1 span {
     font-size: 30px;
     font-weight: 700;
   }
-  
+
   #image-2 span {
     font-size: 30px;
     font-weight: 700;
@@ -497,6 +489,12 @@ a {
   #ineza {
     margin: 1rem 0;
     width: 5%;
+    border-radius: 50%;
+  }
+
+  #ineza-footer {
+    width: 5%;
+    margin: 1rem 0;
     border-radius: 50%;
   }
 }

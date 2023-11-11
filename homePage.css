@@ -24,7 +24,6 @@ a {
   display: none;
 }
 
-
 .nav-item {
   margin: 0;
   left: 100%;
@@ -180,7 +179,7 @@ a {
 .box-1 p {
   width: 80%;
   line-height: 17px;
-  padding: 0 0 0 1rem;;
+  padding: 0 0 0 1rem;
 }
 
 .see-the-program {
@@ -259,8 +258,8 @@ a {
   border-radius: 50%;
 }
 
-#ineza {
-  width: 20%;
+#ineza-1 {
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -317,7 +316,7 @@ a {
     width: 100%;
     height: auto;
     display: inline-block;
-    text-align:right; 
+    text-align: right;
     background-color: #272a31;
   }
 
@@ -337,7 +336,6 @@ a {
   }
 
   .nav-bar {
-    width: 100%;
     background-color: #f8f1f1;
     display: flex;
     text-align: center;
@@ -369,14 +367,13 @@ a {
     height: 0;
     width: 45%;
     position: unset;
-
   }
 
   .nav-link {
     font-weight: 500;
     font-size: 15px;
     color: #272a31;
-    line-height: 40px
+    line-height: 40px;
   }
 
   .about {
