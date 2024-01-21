@@ -17,6 +17,9 @@
 
 
 
+
+
+
 ## Getting started
 
 **To use this repositpry you will need to Clone this repository to your machine. A .gitignore file is already created to ignore any file that is irrelevant, especially your node.js file. A linter is already set up to help you check for errors in your codes, images used are already there**
