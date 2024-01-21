@@ -13,7 +13,7 @@
 ## Live Demo 
 
 
-[Live Demo](https://eclectic-gumption-fb13ce.netlify.app)
+[Live Demo](https://cheery-gingersnap-ef5f72.netlify.app/)
 
 
 
